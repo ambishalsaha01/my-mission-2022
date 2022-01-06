@@ -1,0 +1,166 @@
+/* ~~~~~~~~~~ Common CSS Style ~~~~~~~~~~ */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4b4b4b;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-padding{
+    padding-bottom: 80px;
+}
+
+h1{
+    font-size: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #222;
+    text-transform: capitalize;
+}
+
+h2{
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #222;
+    text-transform: capitalize;
+}
+
+h3{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #222;
+    text-transform: capitalize;
+}
+
+.btn-link{
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1e90ff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+.color-green{
+    color: #1e90ff;
+}
+
+/* ~~~~~~~~~~ Style Top Banner Section ~~~~~~~~~~ */
+#top-banner{
+    padding-top: 100px;
+    background-color: #dfe4ea;
+}
+
+#top-banner .top-banner-content{
+    display: flex;
+}
+
+#top-banner .top-banner-content .top-banner-item {
+    width: 50%;
+}
+
+.top-banner-content .top-banner-item .heading{
+    padding-left: 25px;
+    border-left: 5px solid #1e90ff;
+}
+
+.top-banner-content .top-banner-item img{
+    width: 65%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+/* ~~~~~~~~~~ Style About Mission Section ~~~~~~~~~~ */
+#about-mission .section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#about-mission .about-mission-content{
+    display: flex;
+}
+
+#about-mission .about-mission-content .about-mission-item{
+    width: 33%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px 25px;
+    border-radius: 15px;
+    background-color: pink;
+}
+
+.about-mission-content .about-mission-item img{
+    width: 120px;
+}
+
+/* ~~~~~~~~~~ Style Develop Section ~~~~~~~~~~ */
+#develop .develop-content{
+    display: flex;
+}
+
+#develop .develop-content{
+    display: flex;
+}
+
+#develop .develop-item-img{
+    width: 40%;
+}
+
+#develop .develop-item-text{
+    width: 60%;
+}
+
+#develop .develop-content .develop-item-img img{
+    width: 80% ;
+}
+
+/* ~~~~~~~~~~ Style Project-Plan Section ~~~~~~~~~~ */
+#project-plan .project-plan-content{
+    display: flex;
+}
+
+#project-plan .project-plan-item-text{
+    width: 60%;
+}
+
+#project-plan .project-plan-item-img{
+    width: 40%;
+}
+
+#project-plan .project-plan-item-img img{
+    width: 80%;
+    margin-left: 30px;
+}
+
+/* ~~~~~~~~~~ Style Contact-us Section ~~~~~~~~~~ */
+#contact-us{
+    background-color: #dfe4ea;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* ~~~~~~~~~~ Style Footer Section ~~~~~~~~~~ */
+#footer{
+    text-align: center;
+    background-color: #000;
+    padding: 25px 0;
+}
+
+#footer h2{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+#footer p{
+    color: #fff;
+}
